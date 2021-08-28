@@ -1,2 +1,2 @@
 # cjmsitev2
-Juan marcos school website 
+Juan Marcos school website 
