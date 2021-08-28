@@ -1,0 +1,134 @@
+html, body {
+    height: 100%;
+    background: url(/img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#carouselExampleIndicators{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+#carouselExampleIndicators .carousel-inner{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+.info{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: auto;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+}
+.slidetxt{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: auto;
+  z-index: 1;
+  text-align: center;
+  color: #f7f7f7;
+}
+/**
+#carouselExampleIndicators .carousel-inner .carousel-item .info{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: auto;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 340px;
+  -webkit-filter: drop-shadow(0px 7px 10px black);
+  filter: drop-shadow(0px 7px 10px black);
+}
+#carouselExampleIndicators .carousel-inner .carousel-item h1{
+  height: auto;
+  color: #f7f7f7;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item p{
+  height: auto;
+  color: #f7f7f7;
+  width: 100%;
+  z-index: 1;
+  text-align: center;
+}
+**/
+
+.fade-in {
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+  }
+  @keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+@font-face{
+  font-family: 'Old School United';
+  src: url(fonts/old_school_united_regular.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+.welcome{
+  font-family: 'Old School United';
+  font-weight: 100;
+  text-shadow: 0px 1px 2px black;
+}
+.social-icon{
+  background: #292b2c;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  margin: 5px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 30px;
+}
+#social a{
+  color: #f7f7f7;
+}
+#social a:hover{
+  background: #f7f7f7;
+  color: #292b2c;
+}
