@@ -1,6 +1,10 @@
 html, body {
     height: 100%;
 }
-#historia{
-    padding-top: 30px;
+#visionmision{
+    margin-top: 5em;
+    text-align: center;
+}
+#visionmision h1{
+    padding-top: 1em;
 }
