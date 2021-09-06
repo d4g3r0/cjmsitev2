@@ -1,0 +1,23 @@
+.container{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#caracteristicas{
+    margin-top: 3em;
+}
+#caracteristicas h1{
+    text-align: center;
+}
+#inscripcion{
+    background-image: url(https://cdn.pixabay.com/photo/2016/06/29/08/50/pencils-1486278__340.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5em;
+}
+#inscripcion h1{
+    margin-top: 1em;
+    color: whitesmoke;
+    text-shadow: 0px 2px 2px #000000;
+    text-align: center;
+}

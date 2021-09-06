@@ -8,3 +8,18 @@ html, body {
 #visionmision h1{
     padding-top: 1em;
 }
+#historia{
+    padding-top: 1em;
+}
+#historia h1{
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+#visionmision{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+#historia{
+    padding-right: 10%;
+    padding-left: 10%;
+}
